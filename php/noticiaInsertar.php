@@ -13,10 +13,10 @@
     //EL IF ES PARA PROBARLO A MANO
     //EN TEORIA EL FORMULARIO COMPRUEBA QUE LOS DATOS SON CORRECTOS 
 
-    if(isset($_REQUEST['Titulo']) && 
-       isset($_REQUEST['Contenido']) && 
+    if(isset($_REQUEST['titulo']) && 
+       isset($_REQUEST['contenido']) && 
        isset($_REQUEST['imagen']) && 
-       isset($_REQUEST['Fecha_publicacion'])){
+       isset($_REQUEST['fecha_publicacion'])){
 
       	$Titulo = $_REQUEST['titulo'];
         $Contenido = $_REQUEST['contenido'];
