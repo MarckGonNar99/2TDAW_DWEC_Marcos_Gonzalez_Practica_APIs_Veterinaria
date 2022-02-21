@@ -18,10 +18,10 @@
        isset($_REQUEST['imagen']) && 
        isset($_REQUEST['Fecha_publicacion'])){
 
-      	$Titulo = $_REQUEST['Titulo'];
-        $Contenido = $_REQUEST['Contenido'];
+      	$Titulo = $_REQUEST['titulo'];
+        $Contenido = $_REQUEST['contenido'];
         $imagen = $_REQUEST['imagen'];
-        $Fecha_publicacion= $_REQUEST['Fecha_publicacion'];
+        $Fecha_publicacion= $_REQUEST['fecha_publicacion'];
         
         $sentencia=$conexion->prepare("INSERT INTO 
                                             NOTICIAS 
